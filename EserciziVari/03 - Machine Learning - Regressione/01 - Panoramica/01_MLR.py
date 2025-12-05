@@ -3,7 +3,7 @@ from sklearn import linear_model
 import sklearn.metrics as sm
 import matplotlib.pyplot as plt
 
-input = r'Python\03 - Machine Learning - Regressione\asset\linear.txt'
+input = r'/datasets/linear.txt'
 
 input_data = np.loadtxt(input, delimiter=',')
 X, y = input_data[:, :-1], input_data[:, -1]
